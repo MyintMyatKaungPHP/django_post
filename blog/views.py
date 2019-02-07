@@ -30,4 +30,4 @@ def about(request):
     context = {
         'title': 'About'
     }
-    return render(request, 'blog/about.html',context)
+    return render(request, 'blog/about.html', context)
